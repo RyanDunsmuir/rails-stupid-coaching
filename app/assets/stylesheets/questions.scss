@@ -1,0 +1,37 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.container {
+  margin: 100px 100px;
+}
+
+h1, h2, h3, h4, h5, p, a {
+  font-family: sans-serif;
+}
+
+h1 {
+  font-size: 50px;
+  text-transform: uppercase;
+}
+
+.convo {
+  width: 800px;
+}
+
+.user_speech {
+  background-color: white;
+  box-shadow: 0px 4px 13px 3px #D3D3D3;
+  padding: 60px;
+}
+
+.coach_speech {
+  background-color: rgb(240, 210, 200);
+  box-shadow: 0px 4px 13px 3px #D3D3D3;
+  padding: 60px;
+}
+
+.ask_again {
+  margin: 40px;
+}
+

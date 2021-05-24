@@ -1,0 +1,16 @@
+
+
+  <div class="convo">
+    <div class="user_speech">
+      <h2 style="padding: 10px 10px 3px 10px"><%= params[:question] %></h2>
+      <p> - You</p>
+    </div>
+
+    <div class="coach_speech">
+      <h2 style="padding: 10px 10px 3px 10px"><%= @answer %></h2>
+      <p> - Stupid Coach</p>
+    </div>
+  </div>
+
+  <h2 class="ask_again"><%= link_to 'Ask Another Question', '/ask' %></h2>
+</div>
